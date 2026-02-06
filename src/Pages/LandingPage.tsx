@@ -1,8 +1,5 @@
-import React from 'react'
-import TextTransition, {presets} from 'react-text-transition'
 
 function LandingPage(){
-// const [index, setIndex] = React.useState(0)
 
 return(
     <div className="flex justify-center-safe items-center border-red border-4 w-screen h-screen">
