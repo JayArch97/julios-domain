@@ -1,6 +1,5 @@
 import {
   Card,
-  CardAction,
   CardContent,
   CardDescription,
   CardHeader,
@@ -10,7 +9,6 @@ import {
   UniverseAnimation,
   SphereAnimation,
 } from "@/animations/section-cards/Universe";
-import ChameleonAnimation from "@/animations/section-cards/Chameleon";
 
 export default function ProjectCards() {
   return (

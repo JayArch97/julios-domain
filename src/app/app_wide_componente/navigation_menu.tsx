@@ -98,6 +98,14 @@ export function NavigationHeaderMenu() {
             </NavigationMenuLink>
           </NavigationMenuItem>
           <NavigationMenuItem>
+            <NavigationMenuLink
+              asChild
+              className={navigationMenuTriggerStyle()}
+            >
+              <NavLink to="/memories">Pictures</NavLink>
+            </NavigationMenuLink>
+          </NavigationMenuItem>
+          <NavigationMenuItem>
             <ThemeToggle />
           </NavigationMenuItem>
         </NavigationMenuList>

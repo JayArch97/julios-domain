@@ -25,10 +25,7 @@ export default function BlogTable() {
     >
       <NavigationHeaderMenu />
 
-      <Table
-        containerClassName="dark:border"
-        className="w-[77%] mx-auto border-separate bg-white border-spacing-y-1 mt-4 rounded-md border-blue-200 px-1 py-1 dark:border-slate-400 dark:bg-transparent"
-      >
+      <Table className="w-[77%] mx-auto border-separate bg-white border-spacing-y-1 mt-4 rounded-md border-blue-200 px-1 py-1 dark:border-slate-400 dark:bg-transparent">
         <TableCaption>A list of my thoughts throughtout time.</TableCaption>
         <TableHeader>
           <TableRow>

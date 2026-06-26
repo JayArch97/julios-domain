@@ -6,6 +6,7 @@ import { BrowserRouter, Routes, Route } from "react-router";
 import Projects from "./app/projects/page.tsx";
 import Blogs from "./app/blog/page.tsx";
 import { Loneliness } from "./app/blog/components/loneliness";
+import { Memories } from "./app/pictures || memories/page.tsx";
 import App from "./App.tsx";
 import { ThemeProvider } from "./hooks/use-theme.tsx";
 
@@ -21,6 +22,7 @@ createRoot(document.getElementById("root")!).render(
           <Route path="/homepage" element={<Projects />} />
           <Route path="/blog" element={<Blogs />} />
           <Route path="/loneliness" element={<Loneliness />} />
+          <Route path="/memories" element={<Memories />} />
         </Routes>
       </ThemeProvider>
     </StrictMode>
