@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import Typewriter from "@/animations/Typewriter";
 import NeoLandingPage from "@/assets/neo-landing-page.png";
 import { NavLink } from "react-router";
-
+import { NavigationHeaderMenu } from "../app_wide_componente/navigation_menu";
 //Arbitrary text array
 const textArray: string[] = [
   "Wake up, Neo...",
@@ -49,8 +49,9 @@ function LandingPage() {
     <>
       <img
         src={NeoLandingPage}
-        className="fixed top-0 left-0 w-screen h-screen object-cover opacity-10 bg-transparent"
+        className="fixed top-0 left-0 w-screen h-screen object-cover bg-black opacity-95 pointer-events-none "
       />
+      <NavigationHeaderMenu />
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 ">
         <h1
           className="text-3xl justify-self-center align-self-center
